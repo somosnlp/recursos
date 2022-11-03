@@ -14,7 +14,7 @@ Te damos la bienvenida al grupo de estudio de la comunidad Somos NLP, vamos a le
 
 
 
-### Comunicación
+### Invitación
 
 Nuestro medio de comunicación es el canal #grupo-de-estudio del Discord de la comunidad Somos NLP.
 ¡Únete con esta [invitación](https://discord.com/invite/my8w7JUxZR)!
