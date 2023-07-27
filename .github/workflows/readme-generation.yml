@@ -32,6 +32,7 @@ jobs:
         run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
+
           git add datasets.csv README.md
           git commit -m "Update datasets table and reorder datasets.csv"
-          git push --force origin HEAD:${{ github.head_ref }}
+          git push origin "${{ github.head_ref }}"
