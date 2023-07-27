@@ -19,7 +19,7 @@ jobs:
         run: |
           #!/bin/bash
 
-          pip install pandas
+          pip install pandas tabulate
           python generate_datasets_table.py
 
           git config user.name "${{ github.actor }}"
