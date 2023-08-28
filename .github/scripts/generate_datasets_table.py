@@ -2,8 +2,8 @@ import pandas as pd
 
 df = pd.read_csv("datasets.csv")
 
-# Sort the DataFrame by the 'name' column and save it
-df.sort_values(by="name", inplace=True)
+# Sort the DataFrame by the "nombre" column and save it
+df.sort_values(by="nombre", inplace=True)
 df.to_csv("datasets.csv", index=False)
 
 # Generate the datasets table
