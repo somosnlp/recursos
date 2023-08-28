@@ -16,4 +16,4 @@ Spanish Legal Domain Word & Sub-Word Embeddings,modelado del lenguaje,es,https:/
 Spanish Skip-Gram Word Embeddings in FastText,"modelado del lenguaje,FastText",es,https://doi.org/10.5281/zenodo.5046525,,,http://journal.sepln.org/sepln/ojs/ojs/index.php/pln/article/view/6405,,general,España
 TDX Thesis Spanish Corpus,modelado del lenguaje,"ca, es",https://doi.org/10.5281/zenodo.7313149,,,,,academico,España
 WikiCorpus,"modelado del lenguaje,POS (Part of Speech)","ca, en, es",https://www.cs.upc.edu/~nlp/wikicorpus/,,https://www.cs.upc.edu/~nlp/papers/reese10.pdf,wikicorpus,albertvillanova,general,Varios
-eHealth-KD,NER (Named Entity Recognition),es,https://knowledge-learning.github.io/ehealthkd-2020/,https://github.com/knowledge-learning/ehealthkd-2020,http://ceur-ws.org/Vol-2664/eHealth-KD_overview.pdf,ehealth_kd,mariagrandury,clinico,España
+eHealth-KD,reconocimiento de entidades nombradas (NER),es,https://knowledge-learning.github.io/ehealthkd-2020/,https://github.com/knowledge-learning/ehealthkd-2020,http://ceur-ws.org/Vol-2664/eHealth-KD_overview.pdf,ehealth_kd,mariagrandury,clinico,España
