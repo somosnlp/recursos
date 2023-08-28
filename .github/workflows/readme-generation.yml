@@ -15,16 +15,24 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
 
-      - name: Generate README
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
         run: |
-          #!/bin/bash
-
           pip install pandas tabulate
-          python generate_datasets_table.py
 
+      - name: Reorder datasets.csv and generate README
+        run: |
+          python .github/scripts/generate_datasets_table.py
+
+      - name: Commit and push changes
+        run: |
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
 
           git add datasets.csv README.md
-          git commit -m "Update datasets table and reorder datasets.csv"
-          git push origin "${{ github.head_ref }}"
+          git commit -m "docs: reorder datasets.csv and update datasets table"
+          git push --force origin HEAD:${{ github.head_ref }}
