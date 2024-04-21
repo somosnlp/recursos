@@ -10,7 +10,7 @@ Para más información sobre cómo rellenar cada sección ver las docs: https://
 
 <!-- Suele haber un nombre corto ("pretty name") para las URLs, tablas y demás y uno largo más descriptivo. Para crear el pretty name podéis utilizar acrónimos. -->
 
-<!-- Resumen del modelo y motivación del proyecto (inc. los ODS relacionados). Esta sección es como el abstract. -->
+<!-- Resumen del modelo y motivación del proyecto (inc. los ODS relacionados). Esta sección es como el abstract. También se puede incluir aquí el logo del proyecto. -->
 
 <!-- Si queréis incluir una versión de la Dataset Card en español, enlazarla aquí al principio (e.g. `README_es.md`).-->
 
@@ -34,6 +34,10 @@ Para más información sobre cómo rellenar cada sección ver las docs: https://
 - **Paper:** [optional] [More Information Needed] <!-- Si vais a presentarlo a NAACL poned "WIP", "Comming soon!" o similar. Si no tenéis intención de presentarlo a ninguna conferencia ni escribir un preprint, eliminar. -->
 - **Demo:** [More Information Needed] <!-- Enlace a la demo -->
 - **Video presentation:** [optional] [More Information Needed] <!-- Enlace a vuestro vídeo de presentación en YouTube (están todos subidos aquí: https://www.youtube.com/playlist?list=PLTA-KAy8nxaASMwEUWkkTfMaDxWBxn-8J) -->
+
+### Model Family [optional]
+
+<!-- Si habéis entrenado varios modelos similares podéis enumerarlos aquí. -->
 
 ## Uses
 

@@ -12,7 +12,7 @@ Para más información sobre la dataset card metadata ver: https://github.com/hu
 
 <!-- Suele haber un nombre corto ("pretty name") para las URLs, tablas y demás y uno largo más descriptivo. Para crear el pretty name podéis utilizar acrónimos. -->
 
-<!-- Resumen del corpus y motivación del proyecto (inc. los ODS relacionados). Esta sección es como el abstract. -->
+<!-- Resumen del corpus y motivación del proyecto (inc. los ODS relacionados). Esta sección es como el abstract. También se puede incluir aquí el logo del proyecto. -->
 
 <!-- Si queréis incluir una versión de la Dataset Card en español, enlazarla aquí al principio (e.g. `README_es.md`).-->
 
@@ -33,6 +33,12 @@ Para más información sobre la dataset card metadata ver: https://github.com/hu
 - **Paper [optional]:** [More Information Needed] <!-- Si vais a presentarlo a NAACL poned "WIP", "Comming soon!" o similar. Si no tenéis intención de presentarlo a ninguna conferencia ni escribir un preprint, eliminar. -->
 - **Demo:** [optional] [More Information Needed] <!-- Enlace a la demo del dataset -->
 - **Video presentation:** [optional] [More Information Needed] <!-- Enlace a vuestro vídeo de presentación en YouTube (están todos subidos aquí: https://www.youtube.com/playlist?list=PLTA-KAy8nxaASMwEUWkkTfMaDxWBxn-8J) -->
+
+### Dataset Versions & Formats [optional]
+
+<!-- Si tenéis varias versiones de vuestro dataset podéis combinarlas todas en un mismo repo y simplemente enlazar aquí los commits correspondientes. Ver ejemplo de https://huggingface.co/bertin-project/bertin-roberta-base-spanish -->
+
+<!-- Si hay varias formatos del dataset (e.g. sin anotar, pregunta/respuesta, gemma) las podéis enumerar aquí. -->
 
 ## Uses
 
