@@ -60,6 +60,8 @@ Para más información sobre la dataset card metadata ver: https://github.com/hu
 
 <!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
 
+<!-- En esta sección podéis enumerar y explicar cada columna del corpus. Para cada columna que sea de tipo "categoría" podéis indicar el porcentaje de ejemplos. -->
+
 [More Information Needed]
 
 ## Dataset Creation
