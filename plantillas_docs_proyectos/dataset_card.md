@@ -10,21 +10,33 @@ Para más información sobre la dataset card metadata ver: https://github.com/hu
 
 # Dataset Card for < Nombre del corpus >
 
-<!-- Suele haber un nombre corto ("pretty name") para las URLs, tablas y demás y uno largo más descriptivo. Para crear el pretty name podéis utilizar acrónimos. -->
+<!--
 
-<!-- Resumen del corpus y motivación del proyecto (inc. los ODS relacionados). Esta sección es como el abstract. También se puede incluir aquí el logo del proyecto. -->
+Nombre del corpus:
 
-<!-- Si queréis incluir una versión de la Dataset Card en español, enlazarla aquí al principio (e.g. `README_es.md`).-->
+Suele haber un nombre corto ("pretty name") para las URLs, tablas y demás y uno largo más descriptivo. Para crear el pretty name podéis utilizar acrónimos.
+
+Idioma:
+
+La Dataset Card puede estar en español o en inglés. Recomendamos que sea en inglés para que la comunidad internacional pueda utilizar vuestro dataset. Teniendo en cuenta que somos una comunidad hispanohablante y no queremos que el idioma sea una barrera, la opción más inclusiva sería escribirla en un idioma y traducirla (automáticamente?) al otro. En el repo entonces habría un README.md (Dataset Card en inglés) que enlazaría a un README_ES.md (Dataset Card en español), o viceversa, README.md y README_EN.md. Si necesitáis apoyo con la traducción os podemos ayudar.
+
+Qué incluir en esta sección:
+
+Esta sección es como el abstract. Escribir un resumen del corpus y motivación del proyecto (inc. los ODS relacionados).  Si el proyecto tiene un logo, incluidlo aquí.
+
+Si queréis incluir una versión de la Dataset Card en español, enlazadla aquí al principio (e.g. "A Spanish version of this Dataset Card can be found under [`README_es.md`](URL)"). De manera análoga para el inglés.
+
+-->
 
 ## Dataset Details
 
 ### Dataset Description
 
-<!-- Resumen del dataset. -->
+<!-- Una frase de resumen del dataset. -->
 
 - **Curated by:** [More Information Needed] <!-- Nombre de los miembros del equipo -->
 - **Funded by:** SomosNLP, HuggingFace, Argilla <!-- Si contasteis con apoyo de otra entidad (e.g. vuestra universidad), añadidla aquí -->
-- **Language(s) (NLP):** [More Information Needed] <!-- Enumerar las lenguas en las que se ha entrenado el modelo, especificando el país de origen. Utilizar códigos ISO. Por ejemplo: Spanish (`es-CL`, `es-ES`, `es-MX`), Catalan (`ca`), Quechua (`qu`).  -->
+- **Language(s) (NLP):** [More Information Needed] <!-- Enumerad las lenguas en las que se ha entrenado el modelo, especificando el país de origen. Utilizar códigos ISO. Por ejemplo: Spanish (`es-CL`, `es-ES`, `es-MX`), Catalan (`ca`), Quechua (`qu`).  -->
 - **License:** apache-2.0 <!-- Elegid una licencia lo más permisiva posible teniendo en cuenta la licencia del model pre-entrenado y los datasets utilizados -->
 
 ### Dataset Sources
@@ -60,7 +72,24 @@ Para más información sobre la dataset card metadata ver: https://github.com/hu
 
 <!-- This section provides a description of the dataset fields, and additional information about the dataset structure such as criteria used to create the splits, relationships between data points, etc. -->
 
-<!-- En esta sección podéis enumerar y explicar cada columna del corpus. Para cada columna que sea de tipo "categoría" podéis indicar el porcentaje de ejemplos. -->
+<!--
+
+Enumerar y explicar cada columna del corpus. Para cada columna que sea de tipo "categoría" indicar el porcentaje de ejemplos. Podéis encontrar la estructura de corpus propuesta en [estructura_corpus.md](/plantillas_docs_proyectos/estructura_corpus.md).
+
+Ejemplo:
+
+El corpus cuenta con un total de X ejemplos y contiene las siguientes columnas:
+- `pregunta`
+- `respuesta`
+- `idioma` (variedad geográfica): código ISO del idioma. Distribución: 33% `es_AR`, 33% `es_UY`, 33% `es_PY`
+- `registro` (variedad funcional): `coloquial`, `medio` o `culto`. Distribución: 100% `coloquial.
+- `periodo` (variedad histórica): `actual`, `moderno` (ss. XVIII-XIX), `clásico` (ss. XVI-XVII) o `medieval`. Distribución: 100% `actual`.
+- `dominio`: dominio de la instrucción. Distribución: 10% `sociales_historia`, ...
+- `tarea`: tarea de la instrucción. Distribución: 100% `resumen`.
+- `país_origen`: código ISO del país de origen de los datos. Distribución:
+- `país_referencia`: código ISO del país al que hace referencia la pregunta. Distribución: 55% en blanco, 5% ..., ...
+
+-->
 
 [More Information Needed]
 
@@ -75,6 +104,8 @@ Para más información sobre la dataset card metadata ver: https://github.com/hu
 ### Source Data
 
 <!-- This section describes the source data (e.g. news text and headlines, social media posts, translated sentences, ...). -->
+
+<!-- Incluir siempre que sea posible enlaces a los datos de origen. -->
 
 #### Data Collection and Processing
 

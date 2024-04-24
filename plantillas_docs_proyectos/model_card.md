@@ -8,11 +8,23 @@ Para más información sobre cómo rellenar cada sección ver las docs: https://
 
 # Model Card for < Nombre del modelo >
 
-<!-- Suele haber un nombre corto ("pretty name") para las URLs, tablas y demás y uno largo más descriptivo. Para crear el pretty name podéis utilizar acrónimos. -->
+<!--
 
-<!-- Resumen del modelo y motivación del proyecto (inc. los ODS relacionados). Esta sección es como el abstract. También se puede incluir aquí el logo del proyecto. -->
+Nombre del modelo:
 
-<!-- Si queréis incluir una versión de la Dataset Card en español, enlazarla aquí al principio (e.g. `README_es.md`).-->
+Suele haber un nombre corto ("pretty name") para las URLs, tablas y demás y uno largo más descriptivo. Para crear el pretty name podéis utilizar acrónimos.
+
+Idioma:
+
+La Model Card puede estar en español o en inglés. Recomendamos que sea en inglés para que la comunidad internacional pueda utilizar vuestro dataset. Teniendo en cuenta que somos una comunidad hispanohablante y no queremos que el idioma sea una barrera, la opción más inclusiva sería escribirla en un idioma y traducirla (automáticamente?) al otro. En el repo entonces habría un README.md (Model Card en inglés) que enlazaría a un README_ES.md (Model Card en español), o viceversa, README.md y README_EN.md. Si necesitáis apoyo con la traducción os podemos ayudar.
+
+Qué incluir en esta sección:
+
+Esta sección es como el abstract. Escribir un resumen del modelo y motivación del proyecto (inc. los ODS relacionados).  Si el proyecto tiene un logo, incluidlo aquí.
+
+Si queréis incluir una versión de la Model Card en español, enlazadla aquí al principio (e.g. "A Spanish version of this Model Card can be found under [`README_es.md`](URL)"). De manera análoga para el inglés.
+
+-->
 
 ## Model Details
 
